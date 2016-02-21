@@ -17,7 +17,9 @@ Hay un servicio particular, llamado DDNS (_Dynamic Domain Name Service_) que per
 ######Ejercicio 6: 'Investigue y documente cómo obtener via telnet una página web.'
 Es suficiente conectarse al servidor _NombreServidor_ al puerto 80 (puerto por defecto de HTTP) o cualquier puerto definido por HTTP y pedir la pagina por una orden _GET_. Es decir, se necesitaran las siguientes ordenes:
 > telnet _NombreServidor_ 80
+
 > GET /ruta/mipaginaweb.html
+
 ######Ejercicio 7: 'Lea la [autoentrevista](http://www.w3.org/People/Berners-Lee/FAQ.html) que Tim Berners‐Lee ofrece en la web del W3C y destaque lo que más le ha llamado la atención.'
 \< yet to be done\>
 ######Ejercicio 8: 'Lea el [articulo](http://www.w3.org/History/1989/proposal.html) original en el que se "crea" la WWW y haga un resumen.'
