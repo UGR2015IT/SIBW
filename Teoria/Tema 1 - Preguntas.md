@@ -8,6 +8,8 @@ Internet es una infraestructura de redes, que conecta todos los dispositivos del
 2. Capa de Transporte: permite la conexion, que sea fiable (TCP) o no (UDP)
 3. Capa de Internet: permite el envio y la recepcion de los paquetes (datagramas) y proporciona deteccion de errores
 4. Capa de Acceso a Red: proporciona los protocolos para que se haya el flujo de datos en la red a la que el ordenador es conectado
+
+
 ######Ejercicio 4: '¿A qué capa pertenece el protocolo TCP? ¿Qué utilidad tienen los puertos?'
 El protocolo TCP pertenece a la capa de Transporte. Los puertos se utlizan para que el proceso correcto recibe los datagramas enviados.
 ######Ejercicio 5: 'Investigue  y  documente  cómo  hacer  que  un  ordenador  de  casa,  conectado con IP dinámica, pueda hacer de servidor con un nombre de dominio fijo, de forma que siempre que tecleemos _www.elordenadordemicasa.com_ estemos accediendo al servicio web que tengamos funcionando. Si dispone de dominio propio, utilice su ordenador de casa para ello.'
