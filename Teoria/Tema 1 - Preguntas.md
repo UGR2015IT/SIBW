@@ -21,7 +21,7 @@ Es suficiente conectarse al servidor _NombreServidor_ al puerto 80 (puerto por d
 > GET /ruta/mipaginaweb.html
 
 ######Ejercicio 7: 'Lea la [autoentrevista](http://www.w3.org/People/Berners-Lee/FAQ.html) que Tim Berners‐Lee ofrece en la web del W3C y destaque lo que más le ha llamado la atención.'
-\< yet to be done\>
+En la autoentrevista, Tim Berners-Lee me parece un hombre soñador que pero al mismo tiempo sabe lo que puede hacer con una revolucion como la del Web. El dice que el Web es universal, y se puede acceder a cualquiera informacion del mundo y connectarse con todo el mundo; sin embargo, hay unos posibles problemas, como por ejemplo la necesidad de distinguir informacion de calidad de otras, y el problema de la privacy. Al final pero, de su entrevista se puede entender que el es un hombre optimista hacia el futuro y que ha desarrollado una tecnologia por toda la humanidad y no por su gaña personal ("The decision to make the Web an open system was necessary for it to be universal. You can't propose that something be a universal space and at the same time keep control of it.").
 ######Ejercicio 8: 'Lea el [articulo](http://www.w3.org/History/1989/proposal.html) original en el que se "crea" la WWW y haga un resumen.'
 \< yet to be done\>
 ######Ejercicio 9: 'Indique al menos tres ejemplos de sitios web de las categorias descritas anteriormente.'
