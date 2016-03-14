@@ -2552,6 +2552,10 @@ ul.horizontal li{
     width:60%;
 }
 
+#all_left.map img{
+    max-width: 100%;
+}
+
 #all_left.small-text{
     font-size: 13pt;
 }
