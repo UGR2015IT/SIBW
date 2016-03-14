@@ -1,4 +1,5 @@
 @import url("font-awesome.min.css");
+@import url("new.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
 /*
@@ -1746,13 +1747,17 @@
 /* List */
 
 	ul.default {
-		list-style: disc;
+		list-style: none;
 		padding-left: 1em;
 	}
 
 		ul.default li {
 			padding-left: 0.5em;
 		}
+
+ul.horizontal li{
+    display: inline-block;
+}
 
 	ul.icons {
 		cursor: default;
@@ -2537,3 +2542,25 @@
 				}
 
 	}
+
+#all_left{
+    float:left;
+    width: 40%;
+}
+
+#all_left.map{
+    width:60%;
+}
+
+#all_left.small-text{
+    font-size: 13pt;
+}
+
+#all_right{
+    float:right;
+    width: 50%;
+}
+
+#all_right.map{
+    width:30%;
+}
