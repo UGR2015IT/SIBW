@@ -1755,10 +1755,6 @@
 			padding-left: 0.5em;
 		}
 
-ul.horizontal li{
-    display: inline-block;
-}
-
 	ul.icons {
 		cursor: default;
 	}
@@ -2562,9 +2558,54 @@ ul.horizontal li{
 
 #all_right{
     float:right;
-    width: 50%;
+    width: 60%;
+    margin-left: 1em;
+}
+
+#all_right img{
+    max-width: 100%;
 }
 
 #all_right.map{
     width:30%;
+}
+
+/*#seven-thumbnails{
+    width:13%;
+    height: auto;
+}*/
+
+#seven-thumbnails img{
+    max-width: 100%;
+}
+
+#zoomed-picture img{
+    width:auto;
+    height: auto;
+}
+
+ul.horizontal li{
+    display: inline-block;
+}
+
+#seven-thumbnails .thumbnail{
+    width: 14%;
+    padding: 0.3em;
+    align-self: center;
+    float:left;
+}
+
+.side-text{
+    font-size: 15px;
+}
+
+.one-of-three-col{
+    width: 33%;
+    float: left;
+    margin: 0.1em;
+    font-size: 15px;
+}
+
+.one-of-three-col img{
+    max-width: 100%;
 }
