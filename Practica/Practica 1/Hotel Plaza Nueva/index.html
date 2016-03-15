@@ -47,13 +47,20 @@
 								<li><a href="#home" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Hotel</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-photo">Fotos</span></a></li>
                                 <li><a href="#info" id="info-link" class="skel-layers-ignoreHref"><span class="icon fa-info">Mas Informacion</span></a></li>
-								<li><a href="#promociones" id="promociones-link" class="skel-layers-ignoreHref"><span class="icon fa-shopping-cart">Promociones</span></a></li>
+								<li><a href="#promociones" id="promociones-link" class="skel-layers-ignoreHref"><span class="icon fa-exclamation-circle">Promociones</span></a></li>
+                                <li><a href="#reserva" id="reserva-link" class="skel-layers-ignoreHref"><span class="icon fa-calendar">Reserva</span> </a></li>
 								<!--<li><a href="#habitaciones" id="habitaciones-link" class="skel-layers-ignoreHref"><span class="icon fa-bed">Habitaciones</span></a></li>
 								<li><a href="#servicios" id="services-link" class="skel-layers-ignoreHref"><span class="icon fa-wifi">Servicios</span></a></li>-->
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-map">Contacto y Mapa</span></a></li>
 								<!--<li><a href="#opiniones" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-thumbs-up">Opiniones</span></a></li>-->
-                                <!--<li> <a href="#" id="login-link" class="skel-layers-ignoreHref" onclick="javascript:myFoo();"><span class="icon fa-user">Login</span></a></li>-->
+                                <!--<li> <a href="#" id="login-link" class="skel-layers-ignoreHref" onclick="javascript:myFoo();"><span class="icon fa-user">Login</span></a></li>-->                                
 							</ul>
+                            <div class="nav-reserva">
+                                <p class="side-text"> Reserva tu habitacion ahora: </p>
+                                <form id="reserva">
+                                    <input type="date" id="calendar">
+                                </form>
+                            </div>
 						</nav>
 
 				</div>
@@ -105,18 +112,7 @@
                                 <div id="zoomed-picture">
                                     <img src="images/fotos/foto1.jpg" alt="Click on a picture" id="zoom-pic">
                                 </div>
-                                <div id="seven-thumbnails">
-                                    <!--
-                                    <ul class="horizontal">
-                                        <li><img id="foto1.jpg" src="images/fotos/foto1.jpg" onclick="changeZoomPicture(this.id)" /></li>
-                                        <li><img id="foto2.jpg" src="images/fotos/foto2.jpg" onclick="changeZoomPicture(this.id)" /></li>
-                                        <li><img id="foto3.jpg" src="images/fotos/foto3.jpg" onclick="changeZoomPicture(this.id)" /></li>
-                                        <li><img id="foto4.jpg" src="images/fotos/foto4.jpg" onclick="changeZoomPicture(this.id)" /></li>
-                                        <li><img id="foto5.jpg" src="images/fotos/foto5.jpg" onclick="changeZoomPicture(this.id)" /></li>
-                                        <li><img id="foto6.jpg" src="images/fotos/foto6.jpg" onclick="changeZoomPicture(this.id)" /></li>
-                                        <li><img id="foto7.jpg" src="images/fotos/foto7.jpg" onclick="changeZoomPicture(this.id)" /></li>
-                                    </ul>
-                                    -->
+                                <div id="seven-thumbnails">                                    
                                     <img class="thumbnail" id="foto1.jpg" src="images/fotos/foto1.jpg" onclick="changeZoomPicture(this.id)" />
                                     <img class="thumbnail" id="foto2.jpg" src="images/fotos/foto2.jpg" onclick="changeZoomPicture(this.id)" />
                                     <img class="thumbnail" id="foto3.jpg" src="images/fotos/foto3.jpg" onclick="changeZoomPicture(this.id)" />
@@ -160,6 +156,14 @@
                         <header><h2>¡Disfruta de nuestras promociones!</h2></header>
                         Qui va la lista delle foto.
                         <!-- lista per foto -->
+                    </div>
+                </section>
+                
+                <!-- Reserva -->
+                <section id="reserva" class="two">
+                    <div class="container">
+                        <header><h2>Reserva tu habitacion aqui.</h2></header>
+                        
                     </div>
                 </section>
 

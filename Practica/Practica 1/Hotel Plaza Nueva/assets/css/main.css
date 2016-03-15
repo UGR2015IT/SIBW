@@ -2597,6 +2597,7 @@ ul.horizontal li{
 
 .side-text{
     font-size: 15px;
+    text-align: center;
 }
 
 .one-of-three-col{
@@ -2608,4 +2609,8 @@ ul.horizontal li{
 
 .one-of-three-col img{
     max-width: 100%;
+}
+
+#nav .nav-reserva{
+    align-items: center;
 }
