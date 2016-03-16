@@ -55,12 +55,12 @@
 								<!--<li><a href="#opiniones" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-thumbs-up">Opiniones</span></a></li>-->
                                 <!--<li> <a href="#" id="login-link" class="skel-layers-ignoreHref" onclick="javascript:myFoo();"><span class="icon fa-user">Login</span></a></li>-->                                
 							</ul>
-                            <div class="nav-reserva">
+                            <!--<div class="nav-reserva">
                                 <p class="side-text"> Reserva tu habitacion ahora: </p>
                                 <form id="reserva">
                                     <input type="date" id="calendar">
                                 </form>
-                            </div>
+                            </div>-->
 						</nav>
 
 				</div>
@@ -131,12 +131,14 @@
                         <div class="container">
                             <div class="one-of-three-col" id="3col-Hotel">
                                 <p>El hotel le ofrece 25 amplias y luminosas habitaciones repartidas sobre 3 plantas con ascensor. Cada planta del hotel y cada habitación poseen un nombre y encanto propio. Este nombre es una representación de un evento importante en la vida e historia de Granada. No tienen tarjetas magnéticas para abrir las puertas de las habitaciones, preferimos la originalidad que proporciona una tradicional llave.</p>
+                                <!-- Immagine di Hotel Plaza Nueva -->
+                                <img src="images/fotos/foto2.jpg" alt="Plaza Nueva Hotel Pic">
                             </div>
                             <div class="one-of-three-col" id="3col-Habitaciones">
                                 <p> Que usted sea un amante de la vista externa sobre el incantevole <strong>Alhambra</strong>, o que prefiera un descanso tranquilo sin compromiso, el hotel le ofrece lo que usted mas desea. </p>
                                 <p>Las habitaciones también disponen de un cuarto de baño completo, aire acondicionado, TV, teléfono directo y una caja de seguridad gratuita para su mayor tranquilidad.</p>
                                 <!-- Immagine di Hotel Plaza Nueva -->
-                                <img src="https://images.booking-channel.com/synergy/HTL00004/images_public/HTL00004/galeria/1500/hotel-plaza-nueva-granada-08-habitacion.jpg" alt="Plaza Nueva Hotel Pic">
+                                <img src="https://images.booking-channel.com/synergy/HTL00004/images_public/HTL00004/galeria/1500/hotel-plaza-nueva-granada-08-habitacion.jpg" alt="Rooms Pic">
                             </div>
                             <div class="one-of-three-col" id="3col-Servicios">
                                 <p>La nuestra estructura proporciona varios servicios.</p>
@@ -154,7 +156,66 @@
                 <section id="promociones" class="three">
                     <div class="container">
                         <header><h2>¡Disfruta de nuestras promociones!</h2></header>
-                        Qui va la lista delle foto.
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="ofertas" id="dos-noches">
+                                        <img src="images/fotos/foto8.jpg" >
+                                        <h3><strong>DOS NOCHES</strong></h3>
+                                        Disfute de un 10% de descuento en estancias de un minimo de dos noches.
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="ofertas" id="10-porcento">
+                                        <img src="images/fotos/foto2.jpg" >
+                                        <h3><strong>10% DE DESCUENTO</strong></h3>
+                                        Disfute de un 10% de descuento con esta tarifa no reembolsable.
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="ofertas" id="reserva-anticipada">
+                                        <img src="images/fotos/foto10.jpg" >
+                                        <h3><strong>RESERVA ANTICIPADA</strong></h3>
+                                        Disfute de un 10% de descuento reservando con 21 dias de antelacion.
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="ofertas" id="doble-tren">
+                                        <img src="images/fotos/foto12.jpg" >
+                                        <h3><strong>HABITACION DOBLE + TREN TURISTICO</strong></h3>
+                                        Dos noches en habitacion estandar, desayuno continental, dos tickets para uso del Tren Turistico de Granada.
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="ofertas" id="doble-banio">
+                                        <img src="images/fotos/foto13.jpg" >
+                                        <h3><strong>HABITACION DOBLE + BAÑO ARABE</strong></h3>
+                                        Dos noches en habitacion estandar, desayuno continental, session de baño arabe en Hamman Al Andalus Granada.
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="ofertas" id="doble-flamenco">
+                                        <img src="images/fotos/foto14.jpg" >
+                                        <h3><strong>HABITACION DOBLE + ESPECTACULO DE FLAMENCO</strong></h3>
+                                        Dos noches en habitacion estandar, desayuno continental, espectaculo de flamenco en "El templo del Flamenco".
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="ofertas" id="doble-alhambra">
+                                        <img src="images/fotos/foto15.jpg" >
+                                        <h3><strong>HABITACION DOBLE + VISITA GUIADA ALHAMBRA</strong></h3>
+                                        Dos noches en habitacion estandar, desayuno continental, visita guiada a la Alhambra.
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div class="ofertas" id="doble-tren-flamenco">
+                                        <img src="images/fotos/foto16.jpg" >
+                                        <h3><strong>HABITACION DOBLE + TREN TURISTICO + ESPECTACULO DE FLAMENCO</strong></h3>
+                                        Disfruta de la oferta por el tren turistico y por el espectaculo de flamenco en un solo pack!.
+                                    </div>
+                                </a>
+                            </li>                        
+                        </ul>
                         <!-- lista per foto -->
                     </div>
                 </section>
@@ -163,7 +224,18 @@
                 <section id="reserva" class="two">
                     <div class="container">
                         <header><h2>Reserva tu habitacion aqui.</h2></header>
-                        
+                        <div id="section-reserva">
+                            <form method="post" id="form-reserva">
+                                <div class="fecha-reserva" id="fecha-llegada">
+                                    Fecha llegada:
+                                    <input type="date" id="input-llegada" class="calendar">
+                                </div>
+                                <div class="fecha-reserva" id="fecha-salida">
+                                    Fecha salida:
+                                    <input type="date" id="input-salida" class="calendar">
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </section>
 

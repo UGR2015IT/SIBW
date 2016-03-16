@@ -2614,3 +2614,29 @@ ul.horizontal li{
 #nav .nav-reserva{
     align-items: center;
 }
+
+.ofertas{
+    height: 80px;
+    text-align: left;
+    font-size: 14px;
+    margin: 0.5em;
+    border: 1px solid;
+    line-height: 20px;
+    background: #FFF;
+}
+
+.ofertas h3{
+    font-style: italic;
+    color: black;
+}
+
+.ofertas img{
+    max-height: 100%;
+    float:left;
+    margin-right: 1em;
+}
+
+.fecha-reserva{
+    width: 30%;
+    height: auto:
+}
