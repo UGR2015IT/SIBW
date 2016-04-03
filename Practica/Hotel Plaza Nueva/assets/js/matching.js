@@ -11,17 +11,17 @@ function matchHeight() {
         childCount = myContainer[k].childElementCount, 
         children = myContainer[k].childNodes;
     
-        if (k==1) alert('Children number: '+childCount);
+        //if (k==1) alert('Children number: '+childCount);
         
         for (i = 0; i < childCount; i++) {
             if (children[j].clientHeight > maxHeight) {
                 maxHeight = children[j].clientHeight;
             }
-            if (k==1) alert('Current height: '+children[j].clientHeight+'; current maxHeight: '+maxHeight);
+            //if (k==1) alert('Current height: '+children[j].clientHeight+'; current maxHeight: '+maxHeight);
             j += 2;
         }
         
-        if (k==1) alert('Setting heights');
+        //if (k==1) alert('Setting heights');
         j = 1;
         for (i = 0; i < childCount; i++) {
             children[j].style.height = maxHeight + 'px';
