@@ -1761,7 +1761,7 @@
 	}
 
 		ul.default li {
-			padding-left: 0.5em;
+			padding-left: 0.2em;
 		}
 
 	ul.icons {
@@ -2106,6 +2106,9 @@
 		padding: 3em 0 4em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 		font-size: 0.8em;
+        position: fixed;
+        top: 90%;
+        width: auto;
 	}
 
 		#footer .copyright {
@@ -2131,6 +2134,8 @@
 
 	#main {
 		margin-left: 375px;
+        background-color: #e8edec;
+        height: 100%;
 	}
 
 		#main > section {
@@ -2169,11 +2174,12 @@
 				padding: 6em 0;
 				background-size: cover;
 				background-position: center center;
+                transform: translate(0%,25%);
 			}
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/granada.jpg");
+                background-image: url(../../images/dark-bg.jpg);
                 width:auto;
 			}
 
@@ -2699,10 +2705,6 @@ ul.horizontal li{
     transition: none;
 }
 
-.no-under:hover{
-    color:inherit;
-}
-
 .form-button{
     padding: 0.3em 0.3em 0.3em 0.3em;
 }
@@ -2764,6 +2766,59 @@ button.slider{
 .prev {
     top: 123px;
     left: 0px;
+}
+.align-left{
+    float:left;
+}
+.align-right{
+    float: right;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.upper-links{
+    text-align: center;
+    margin-bottom: 1em;
+}
+.upper-links a{
+    margin: 0.5em;
+}
+button.material{
+    max-height: 100px;
+    max-width: 100px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+button.material img{
+    height: 100%;
+    width: 100%;
+}
+
+.material.one{
+    background-color: #673ab7;
+}
+
+.material.two{
+    background-color: #f44336;
+}
+
+.material.three{
+    background-color: #4caf50;
+}
+
+.thumb-menu{
+    max-width: 125px;
+    margin-left: 15px;
+    float: left;
+}
+.thumb-menu img{
+    width: 100%;
+    padding: 0.3em;
+    margin-bottom: 0.7em;
+    margin-top: 0.7em;
 }
 
 .srv-hot-1-HAC,.srv-hot-2-HAC,.srv-hot-2-RMA,.srv-hot-5-HAC,.srv-hot-8-HAC,.srv-hot-9-RMA,.srv-hot-10-RMA,.srv-hot-11-RMA,.srv-hot-13-RMA,.srv-hot-15-HAC,.srv-hot-20-HAC,.srv-hot-22-HAC,.srv-hot-26-HAC,.srv-hot-26-RMA,.srv-hot-28-RMA,.srv-hot-35-HAC,.srv-hot-36-HAC,.srv-hot-37-HAC,.srv-hot-42-HAC,.srv-hot-46-HAC,.srv-hot-48-HAC,.srv-hot-50-RMA,.srv-hot-52-HAC,.srv-hot-53-HAC,.srv-hot-54-HAC,.srv-hot-56-RMA,.srv-hot-58-HAC,.srv-hot-61-RMA,.srv-hot-65-HAC,.srv-hot-66-HAC,.srv-hot-69-RMA,.srv-hot-74-HAC,.srv-hot-76-HAC,.srv-hot-77-HAC,.srv-hot-79-HAC,.srv-hot-91-RMA,.srv-hot-92-RMA,.srv-hot-101-RMA,.srv-hot-105-HAC,.srv-hot-107-RMA,.srv-hot-119-RMA,.srv-hot-123-RMA,.srv-hot-145-HAC,.srv-hot-157-HAC,.srv-hot-159-HAC,.srv-hot-179-HAC,.srv-hot-210-RMA,.srv-hot-221-RMA,.srv-hot-224-HAC,.srv-hot-229-HAC,.srv-hot-251-RMA,.srv-hot-269-HAC,.srv-hot-276-RMA,.srv-hot-277-RMA,.srv-hot-278-RMA,.srv-hot-283-HAC,.srv-hot-350-HAC,.srv-hot-351-RMA,.srv-hot-282-RMA,.srv-hot-284-RMA,.srv-hot-288-RMA,.srv-hot-352-RMA{background:url("../../images/sprites.png") no-repeat}

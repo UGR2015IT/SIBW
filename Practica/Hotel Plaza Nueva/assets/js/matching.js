@@ -1,4 +1,4 @@
-function matchHeight() {
+window.onload = function() {
     var i = 0,
         k = 0,
         maxHeight = 0, 

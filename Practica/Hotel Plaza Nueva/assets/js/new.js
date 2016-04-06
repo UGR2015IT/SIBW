@@ -104,6 +104,10 @@ function updateSlider(sentido) {
     sliderContent(myValue);
 }
 
+function goToHome(paramId3){
+    document.getElementById(paramId3).innerHTML = '<a href="#home" id="top-link" class="skel-layers-ignoreHref">Go back on top</a>';
+}
+
 window.onload = function(){
     setInterval(updateSlider('next'), 5000);
 }
