@@ -1,7 +1,4 @@
-<form method="post" action="include/sendmail.php">
-    <div class="row">
-        <p>¡Contactanos para cualquiera duta!</p>
-    </div>
+<form method="post" action="include/mailsend/send.php">
     <div class="row">
         <div class="4u 12u$(mobile)"><input type="text" name="name" placeholder="Nombre y Appellidos" /></div>
         <div class="4u 12u$(mobile)"><input type="text" name="phone" placeholder="Telefono" /></div>

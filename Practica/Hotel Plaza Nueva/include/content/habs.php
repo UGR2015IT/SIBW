@@ -6,7 +6,7 @@
         <p>Asimismo el hotel dispone de habitaciones interiores, recomendables para personas que desean descansar con la máxima tranquilidad.</p>
         <p>Las habitaciones también disponen de un cuarto de baño completo, aire acondicionado, TV, teléfono directo y una caja de seguridad gratuita para su mayor tranquilidad.</p>
         <div class="3col-container" id="3col-hab">
-            <div class="one-of-three-col" id="3col-twin">
+            <div class="one-of-three-col 4u 4u(mobile)" id="3col-twin">
                 <header><h3>HABITACION DOBLE TWIN</h3></header>
                 <!-- Immagine della double -->
                 <div class="image">
@@ -33,7 +33,7 @@
                     </a>
                 </div>
             </div>
-            <div class="one-of-three-col" id="3col-superior">
+            <div class="one-of-three-col 4u 4u(mobile)" id="3col-superior">
                 <header><h3>HABITACION DOBLE SUPERIOR</h3></header>
                 <!-- Immagine della superior -->
                 <div class="image">
@@ -51,7 +51,7 @@
                     </a>
                 </div>
             </div>
-            <div class="one-of-three-col" id="3col-triple">
+            <div class="one-of-three-col 4u$ 4u(mobile)$" id="3col-triple">
                 <header><h3>HABITACION TRIPLE</h3></header>
                 <!-- Immagine della triple -->                        
                 <div class="image">

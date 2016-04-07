@@ -1,0 +1,13 @@
+<promociones>
+    <oferta>
+        <cod_oferta>000</cod_oferta>
+        <nom_oferta>10% DESCUENTO</nom_oferta>
+        <tipo>%</tipo>
+        <long_text>Disfute de un 10% de descuento con esta tarifa no reembolsable.</long_text>
+        <precio>0</precio>
+        <descuento>10</descuento>
+    </oferta>
+    <oferta>
+        
+    </oferta>
+</promociones>

@@ -16,7 +16,7 @@
                 'reserva' => array('text'=>'Reservar', 'url'=>'reserva', 'span-class'=>'icon fa-calendar'),
             ); 
             echo '<nav id="nav">';
-            echo '<div class="upper-links">';
+            echo '<div class="upper-links text-grey">';
             foreach($menu as $item) {
                 echo "<a href='?seccion={$item['url']}' id='top-link' class='skel-layers-ignoreHref no-under'><span class='icon {$item['span-class']}'></span></a>";
             }
@@ -48,7 +48,7 @@
                         break;
                     case "fotos":
                         // CONTESTUAL MENU FOR FOTOS
-                        echo '<div class="text-center">';
+                        echo '<div class="text-center text-grey">';
                         echo 'Pincha una foto para verla en grande';
                         echo '</div>';
                         echo '<div class="thumb-menu">';
@@ -79,6 +79,17 @@
                         break;
                     case "contact":
                         // CONTESTUAL MENU FOR CONTACT
+                        ?>
+    <ul>
+        <li><a id='call-us' class='skel-layers-ignoreHref'><span class='icon fa-phone'>+34 958 215 273</span></a></li>
+        <li><a id='mail-us' class='skel-layers-ignoreHref'><span class='icon fa-envelope'>info@hotel-plazanueva.com</span></a></li>
+        <li><a id='find-us' class='skel-layers-ignoreHref'><span class='icon fa-map'>Calle Imprenta, 2, Granada (ES)</span></a></li>
+    </ul>
+    <div id="sidemap" class="menu-map">
+        <!-- Mapa -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3178.975876819731!2d-3.598489685267615!3d37.177044254096494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fcb8cb9390e1%3A0x9253186efccf153a!2sHotel+Plaza+Nueva!5e0!3m2!1sit!2ses!4v1460041878926" width="250" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+                        <?php
                         break;
                     case "reserva":
                         // CONTESTUAL MENU FOR RESERVA
