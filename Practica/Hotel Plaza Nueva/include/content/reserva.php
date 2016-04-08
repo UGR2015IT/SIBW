@@ -14,9 +14,13 @@
                     Habitacion <a id="hab-1" class="no-under">1</a>:
                     &nbsp;
                     <select id="habitacion-select">
-                        <option id="doble-std" selected="false">Habitacion Doble (TWIN)</option>
-                        <option id="doble-sup" selected="false">Habitacion Doble Superior</option>
-                        <option id="triple" selected="false">Habitacion Triple</option>
+                        <?php
+                            $xmlDoc = simplexml_load_file('database/habitaciones.xml');
+
+                            foreach($xmlDoc as $habitacion){
+                                echo '<option id="doble-'.$habitacion->id.'">Habitacion '.$habitacion->nombre_hab.'</option>';
+                            }
+                        ?>
                     </select>
                     Adultos:
                     <select id="num-adultos">

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<habitaciones>
+    <habitacion>
+        <cod_hab>TWI</cod_hab>
+        <id>twin</id>
+        <nombre_hab>DOBLE TWIN</nombre_hab>
+        <precio>79</precio>
+        <num_hab>5</num_hab>
+        <avail_hab>5</avail_hab>
+        <descr>En nuestras habitaciones standard disfrutará de todo el equipamiento y comodidades que su estancia en Granada merece.</descr>
+    </habitacion>
+    <habitacion>
+        <cod_hab>SUP</cod_hab>
+        <id>superior</id>
+        <nombre_hab>DOBLE SUPERIOR</nombre_hab>
+        <precio>89</precio>
+        <num_hab>5</num_hab>
+        <avail_hab>5</avail_hab>
+        <descr>Disfrute de una magnifica vista de Plaza Nueva y el centro de Granada desde nuestras habitaciones superiores.</descr>
+    </habitacion>
+    <habitacion>
+        <cod_hab>TRI</cod_hab>
+        <id>triple</id>
+        <nombre_hab>TRIPLE</nombre_hab>
+        <precio>115</precio>
+        <num_hab>5</num_hab>
+        <avail_hab>5</avail_hab>
+        <descr>En nuestras habitaciones triples podrá disfrutar de sus vacaciones en familia o con amigos en el centro de Granada.</descr>
+    </habitacion>
+</habitaciones>

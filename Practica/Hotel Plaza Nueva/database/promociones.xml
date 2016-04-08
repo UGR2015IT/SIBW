@@ -1,13 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <promociones>
     <oferta>
         <cod_oferta>000</cod_oferta>
         <nom_oferta>10% DESCUENTO</nom_oferta>
         <tipo>%</tipo>
+        <hab>C</hab>
         <long_text>Disfute de un 10% de descuento con esta tarifa no reembolsable.</long_text>
         <precio>0</precio>
         <descuento>10</descuento>
     </oferta>
     <oferta>
-        
+        <cod_oferta>001</cod_oferta>
+        <nom_oferta>DOS NOCHES</nom_oferta>
+        <tipo>%</tipo>
+        <hab>C</hab>
+        <long_text>Disfute de un 10% de descuento en estancias de un minimo de dos noches.</long_text>
+        <precio>0</precio>
+        <descuento>10</descuento>
+    </oferta>
+    <oferta>
+        <cod_oferta>002</cod_oferta>
+        <nom_oferta>DOS NOCHES</nom_oferta>
+        <tipo>%</tipo>
+        <hab>C</hab>
+        <long_text>Disfute de un 10% de descuento en estancias de un minimo de dos noches.</long_text>
+        <precio>0</precio>
+        <descuento>10</descuento>
     </oferta>
 </promociones>

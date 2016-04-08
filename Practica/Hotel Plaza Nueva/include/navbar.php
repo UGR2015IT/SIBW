@@ -73,6 +73,11 @@
                         break;
                     case "habs":
                         // CONTESTUAL MENU FOR HABS
+                        ?>
+<div class="text-center text-grey">
+    <p>Nuestras habitaciones con vistas a Plaza Nueva y a la Torre de la Vela, que pertenece al recinto de la Alhambra, le permitirán disfrutar de una perspectiva distinta de la ciudad. Disfrute de esta experiencia por un pequeño suplemento. Asimismo el hotel dispone de habitaciones interiores, recomendables para personas que desean descansar con la máxima tranquilidad.</p>   
+</div>
+                        <?php
                         break;
                     case "proms":
                         // CONTESTUAL MENU FOR PROMS

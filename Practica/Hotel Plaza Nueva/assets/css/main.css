@@ -2638,7 +2638,7 @@ ul.horizontal li{
 }
 
 .one-of-three-col div.hidden{
-    display: none;
+    display: inline;
 }
 
 .one-of-three-col h3{
