@@ -1,31 +1,76 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 
 <promociones>
-    <oferta>
-        <cod_oferta>000</cod_oferta>
-        <nom_oferta>10% DESCUENTO</nom_oferta>
-        <tipo>%</tipo>
-        <hab>C</hab>
-        <long_text>Disfute de un 10% de descuento con esta tarifa no reembolsable.</long_text>
-        <precio>0</precio>
-        <descuento>10</descuento>
-    </oferta>
-    <oferta>
-        <cod_oferta>001</cod_oferta>
-        <nom_oferta>DOS NOCHES</nom_oferta>
-        <tipo>%</tipo>
-        <hab>C</hab>
-        <long_text>Disfute de un 10% de descuento en estancias de un minimo de dos noches.</long_text>
-        <precio>0</precio>
-        <descuento>10</descuento>
-    </oferta>
-    <oferta>
-        <cod_oferta>002</cod_oferta>
-        <nom_oferta>DOS NOCHES</nom_oferta>
-        <tipo>%</tipo>
-        <hab>C</hab>
-        <long_text>Disfute de un 10% de descuento en estancias de un minimo de dos noches.</long_text>
-        <precio>0</precio>
-        <descuento>10</descuento>
-    </oferta>
+	<oferta>
+		<cod_oferta>000</cod_oferta>
+		<nom_oferta>10% DESCUENTO</nom_oferta>
+		<tipo>%</tipo>
+		<hab>c</hab>
+		<long_text>Disfute de un 10% de descuento con esta tarifa no reembolsable.</long_text>
+		<valor>10</valor>
+	</oferta>
+	<oferta>
+		<cod_oferta>001</cod_oferta>
+		<nom_oferta>DOS NOCHES</nom_oferta>
+		<tipo>%</tipo>
+		<hab>c</hab>
+		<long_text>Disfute de un 10% de descuento en estancias de un minimo de dos noches.</long_text>
+		<valor>10</valor>
+	</oferta>
+	<oferta>
+		<cod_oferta>002</cod_oferta>
+		<nom_oferta>RESERVA ANTICIPADA</nom_oferta>
+		<tipo>%</tipo>
+		<hab>c</hab>
+		<long_text>Disfute de un 10% de descuento reservando con 21 dias de antelacion.</long_text>
+		<valor>10</valor>
+	</oferta>
+	<oferta>
+		<cod_oferta>003</cod_oferta>
+		<nom_oferta>HABITACION DOBLE + TREN TURISTICO</nom_oferta>
+		<tipo>F</tipo>
+		<hab>D</hab>
+		<long_text>Dos noches en habitacion estandar, desayuno continental, dos tickets para uso del Tren Turistico de Granada.</long_text>
+		<valor>99</valor>
+	</oferta>
+	<oferta>
+		<cod_oferta>004</cod_oferta>
+		<nom_oferta>HABITACION DOBLE + BANO ARABE</nom_oferta>
+		<tipo>F</tipo>
+		<hab>D</hab>
+		<long_text>Dos noches en habitacion estandar, desayuno continental, session de baño arabe en Hamman Al Andalus Granada.</long_text>
+		<valor>99</valor>
+	</oferta>
+	<oferta>
+		<cod_oferta>004</cod_oferta>
+		<nom_oferta>HABITACION DOBLE + BANO ARABE</nom_oferta>
+		<tipo>F</tipo>
+		<hab>D</hab>
+		<long_text>Dos noches en habitacion estandar, desayuno continental, session de baño arabe en Hamman Al Andalus Granada.</long_text>
+		<valor>99</valor>
+	</oferta>
+	<oferta>
+		<cod_oferta>004</cod_oferta>
+		<nom_oferta>HABITACION DOBLE + ESPECTACULO DE FLAMENCO</nom_oferta>
+		<tipo>F</tipo>
+		<hab>D</hab>
+		<long_text>Dos noches en habitacion estandar, desayuno continental, espectaculo de flamenco en El templo del Flamenco.</long_text>
+		<valor>99</valor>
+	</oferta>
+	<oferta>
+		<cod_oferta>004</cod_oferta>
+		<nom_oferta>HABITACION DOBLE + VISITA GUIADA ALHAMBRA</nom_oferta>
+		<tipo>F</tipo>
+		<hab>D</hab>
+		<long_text>Dos noches en habitacion estandar, desayuno continental, visita guiada a la Alhambra.</long_text>
+		<valor>99</valor>
+	</oferta>
+	<oferta>
+		<cod_oferta>004</cod_oferta>
+		<nom_oferta>HABITACION DOBLE + TREN TURISTICO + FLAMENCO</nom_oferta>
+		<tipo>F</tipo>
+		<hab>D</hab>
+		<long_text>Disfruta de la oferta por el tren turistico y por el espectaculo de flamenco en un solo pack!.</long_text>
+		<valor>149</valor>
+	</oferta>	
 </promociones>
