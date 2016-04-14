@@ -1,15 +1,14 @@
 {
   "habitaciones":{
       "oferta":[  
-        {"cod_oferta":"000", "nom_oferta":"10% DESCUENTO", "tipo":"%", "hab":"c", "long_text":"Disfute de un 10% de descuento con esta tarifa no reembolsable.", "valor": "10"},
-        {"cod_oferta":"001", "nom_oferta":"DOS NOCHES", "tipo":"%", "hab":"c", "long_text":"Disfute de un 10% de descuento en estancias de un minimo de dos noches.", "valor": "10"},
-        {"cod_oferta":"002", "nom_oferta":"RESERVA ANTICIPADA", "tipo":"%", "hab":"c", "long_text":"Disfute de un 10% de descuento reservando con 21 dias de antelacion.", "valor": "10"},
-        {"cod_oferta":"003", "nom_oferta":"HABITACION DOBLE + TREN TURISTICO", "tipo":"F", "hab":"D", "long_text":"Dos noches en habitacion estandar, desayuno continental, dos tickets para uso del Tren Turistico de Granada.", "valor":"99"},
-        {"cod_oferta":"004", "nom_oferta":"HABITACION DOBLE + BANO ARABE", "tipo":"F", "hab":"D", "long_text":"Dos noches en habitacion estandar, desayuno continental, session de baño arabe en Hamman Al Andalus Granada.", "valor": "99"},
-        {"cod_oferta":"004", "nom_oferta":"HABITACION DOBLE + BANO ARABE", "tipo":"F", "hab":"D", "long_text":"Dos noches en habitacion estandar, desayuno continental, session de baño arabe en Hamman Al Andalus Granada.", "valor": "99"},
-        {"cod_oferta":"004", "nom_oferta":"HABITACION DOBLE + ESPECTACULO DE FLAMENCO", "tipo":"F", "hab":"D", "long_text":"Dos noches en habitacion estandar, desayuno continental, espectaculo de flamenco en El templo del Flamenco.", "valor": "99"},
-        {"cod_oferta":"004", "nom_oferta":"HABITACION DOBLE + VISITA GUIADA ALHAMBRA", "tipo":"F", "hab":"D", "long_text":"Dos noches en habitacion estandar, desayuno continental, visita guiada a la Alhambra.", "valor": "99"},
-        {"cod_oferta":"004", "nom_oferta":"HABITACION DOBLE + TREN TURISTICO + FLAMENCO", "tipo":"F", "hab":"D", "long_text":"Disfruta de la oferta por el tren turistico y por el espectaculo de flamenco en un solo pack!.", "valor": "149"}
+        {"cod_oferta":"0", "nom_oferta":"10% DESCUENTO", "tipo":"%", "hab":"C", "long_text":"Disfute de un 10% de descuento con esta tarifa no reembolsable.", "valor": "10"},
+        {"cod_oferta":"1", "nom_oferta":"DOS NOCHES", "tipo":"%", "hab":"C", "long_text":"Disfute de un 10% de descuento en estancias de un minimo de dos noches.", "valor": "10"},
+        {"cod_oferta":"2", "nom_oferta":"RESERVA ANTICIPADA", "tipo":"%", "hab":"C", "long_text":"Disfute de un 10% de descuento reservando con 21 dias de antelacion.", "valor": "10"},
+        {"cod_oferta":"3", "nom_oferta":"DOBLE + TREN TURISTICO", "tipo":"F", "hab":"D", "long_text":"Dos noches en habitacion estandar, desayuno continental, dos tickets para uso del Tren Turistico de Granada.", "valor":"99"},
+        {"cod_oferta":"4", "nom_oferta":"DOBLE + BANO ARABE", "tipo":"F", "hab":"D", "long_text":"Dos noches en habitacion estandar, desayuno continental, session de baño arabe en Hamman Al Andalus Granada.", "valor": "99"},
+        {"cod_oferta":"5", "nom_oferta":"DOBLE + ESPECTACULO DE FLAMENCO", "tipo":"F", "hab":"D", "long_text":"Dos noches en habitacion estandar, desayuno continental, espectaculo de flamenco en El templo del Flamenco.", "valor": "99"},
+        {"cod_oferta":"6", "nom_oferta":"DOBLE + VISITA GUIADA ALHAMBRA", "tipo":"F", "hab":"D", "long_text":"Dos noches en habitacion estandar, desayuno continental, visita guiada a la Alhambra.", "valor": "99"},
+        {"cod_oferta":"7", "nom_oferta":"DOBLE + TREN TURISTICO + FLAMENCO", "tipo":"F", "hab":"D", "long_text":"Disfruta de la oferta por el tren turistico y por el espectaculo de flamenco en un solo pack!.", "valor": "149"}
       ]
   }
 }

@@ -31,8 +31,8 @@
                                 <li class="srv-hot-50-RMA"></li>
                                 <li class="srv-hot-92-RMA"></li>
                             </ul>
-                            <a href="#reserva">
-                                <input type="button" id="doble-'.$habitacion->id.'" class="button-hidden-price" value="Solo '.$habitacion->precio.'€/noche!" onclick="updateReserva(this.id)">
+                            <a href="?seccion=reserva&hab='.$habitacion->id.'">
+                                <input type="button" id="doble-'.$habitacion->id.'" class="button-hidden-price" value="Solo '.$habitacion->precio.'€/noche!">
                             </a>
                         </div>
                     ';

@@ -2059,9 +2059,23 @@
 			top: 0;
 		}
 
+    #nav .bottom {
+        width: 100%;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+    }
+    
+    #nav .bottom-container div.contacts{
+        position: relative;
+    } 
+    #nav .bottom-container div.slider{
+        max-width: inherit;
+    }
+
 	#nav ul li a {
 		display: block;
-		padding: 0.1em 1.5em 0.5em 1.5em;
+		padding: 0.1em 1.5em 0.2em 1.5em;
 		color: rgba(255, 255, 255, 0.5);
 		text-decoration: none;
 		outline: 0;
