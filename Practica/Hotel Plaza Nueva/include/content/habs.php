@@ -16,7 +16,6 @@
                         </div>
                     ';
                     $html .= '<p>'.$habitacion->descr.'</p>';
-                   // $html .= '<a class="more-info-click" onclick="showPrice("hidden-'.$habitacion->id.'")">Pincha aqui para mas informaciones!</a>';
                     $html .= '
                         <div class="hidden" id="hidden-'.$habitacion->id.'">
                             <ul class="horizontal">
