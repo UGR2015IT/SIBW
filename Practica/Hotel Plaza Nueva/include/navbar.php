@@ -4,8 +4,7 @@
         echo '<div class="top">';
             //Logo
             include 'navbarlogo.php'; 
-            // Contestual menu
-            // This is the default menu
+            // Contestual menu array
             $menu = array(
                 'home'  => array('text'=>'Hotel',  'url'=>'home', 'span-class'=>'icon fa-home'),
                 'fotos'  => array('text'=>'Fotos',  'url'=>'fotos', 'span-class'=>'icon fa-photo'),
@@ -16,7 +15,7 @@
                 'reserva' => array('text'=>'Reservar', 'url'=>'reserva', 'span-class'=>'icon fa-calendar'),
             ); 
             echo '<nav id="nav">';
-            echo '<div class="upper-links text-grey">';
+            /*echo '<div class="upper-links text-grey">';
             foreach($menu as $item) {
                 if(!empty($_GET['seccion'])){
                     $mySection = $_GET['seccion'];
@@ -25,13 +24,18 @@
                 if ($item['url'] != $mySection)
                     echo "<a href='?seccion={$item['url']}' id='top-link' class='skel-layers-ignoreHref no-under'><span class='icon {$item['span-class']}'></span></a>";
             }
-            echo '</div>';
+            echo '</div>';*/
             echo NavMenu::GenerateMenu($menu);
             echo '</nav>';
         echo '</div>';
 
+        echo '<div id="nav" class="bottom">';
+        // Slider in the navbar
+        include 'navbarslider.php';
+
         // Footer of the navbar
         include 'navbarfooter.php';
+        echo '</div>';
     echo '</div>';
 
 
@@ -42,16 +46,21 @@
             if (!empty($_GET['seccion'])){
                 $seccion = $_GET['seccion'];  
                 $seccion = basename($seccion);
-                switch ($seccion){
-                    case "home":
-                        $html = "<ul>\n";
-                        foreach($items as $item) {
-                            $html .= "<li><a href='?seccion={$item['url']}' id='link' class='skel-layers-ignoreHref'><span class='icon {$item['span-class']}'>{$item['text']}</span></a></li>\n";
-                        }
-                        $html .= "</ul>\n";
-                        return $html;
-                        break;
-                    case "fotos":
+                //switch ($seccion){
+                    //case "home":
+                $html = "<ul>\n";
+                foreach($items as $item) {
+                    if(!empty($_GET['seccion'])){
+                        $mySection = $_GET['seccion'];
+                        $mySection = basename($mySection);
+                    } else $mySection = "home";
+                    if ($item['url'] != $mySection)
+                        $html .= "<li><a href='?seccion={$item['url']}' id='link' class='skel-layers-ignoreHref'><span class='icon {$item['span-class']}'>{$item['text']}</span></a></li>\n";
+                }
+                $html .= "</ul>\n";
+                return $html;
+                //break;
+                    /*case "fotos":
                         // CONTESTUAL MENU FOR FOTOS
                         echo '<div class="text-center text-grey">';
                         echo 'Pincha una foto para verla en grande';
@@ -165,8 +174,18 @@
                 }
                 $html .= "</ul>";
                 echo $html;
+            }*/
+            } 
+            else {
+                //DEFAULT CONTESTUAL MENU
+                $html = "<ul>";
+                foreach($items as $item) {
+                    if ($item['url'] != "home")
+                        $html .= "<li><a href='?seccion={$item['url']}' id='top-link' class='skel-layers-ignoreHref'><span class='icon {$item['span-class']}'>{$item['text']}</span></a></li>";
+                }
+                $html .= "</ul>";
+                echo $html;
             }
-            
         }
     };
 ?>

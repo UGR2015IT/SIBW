@@ -22,3 +22,4 @@
 <script src="assets/js/matchHeight/jquery.matchHeight.js"></script>
 <script src="assets/js/matchHeight/matchHeight.spec.js"></script>
 <script src="assets/js/matching.js"></script>
+<script src="assets/js/updater.js"></script>

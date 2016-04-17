@@ -8,8 +8,9 @@
     if(!empty($_GET['value'])){
         $value = $_GET['value'];
         $value = basename($value);
+        $value = abs($value) % 8;
     } else {
-        $value = 1;
+        $value = 0;
     }
 
     $html = "<section id='promociones' class='two'>";
