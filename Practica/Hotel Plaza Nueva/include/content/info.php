@@ -1,5 +1,7 @@
 <!-- Mas Info -->
-<section id="info" class="two">
+<?php
+
+echo '<section id="info" class="two">
     <div class="container">
         <header><h2>Los que va a encontrar en el nuestro hotel</h2></header>
         <div class="3col-container" id="3col-info">
@@ -34,4 +36,6 @@
         </div>
 
     </div>
-</section>
+</section>';
+
+?>

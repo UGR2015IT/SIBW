@@ -16,16 +16,17 @@
                             <p style="margin: auto;">Habitacion 1:</p>
                             <select id="habitacion-select">
                                 <?php
-                                    $xmlDoc = simplexml_load_file('database/habitaciones.xml');
-
-                                    foreach($xmlDoc as $habitacion){
-                                        $html = '<option id="'.$habitacion->id.'" ';
+                                
+                                require_once "database/habitaciones.php";
+                                $array = new habitaciones();
+                                foreach ($array->getArray() as $habitacion){
+                                    $html = '<option id="'.$habitacion["id"].'" ';
                                         if(!empty($_GET['hab'])){
-                                            if ($habitacion->id == basename($_GET['hab'])) $html .= 'selected';
+                                            if ($habitacion["id"] == basename($_GET['hab'])) $html .= 'selected';
                                         }
-                                        $html .= '>Habitacion '.$habitacion->nombre_hab.'</option>';
+                                        $html .= '>Habitacion '.$habitacion["nombre_hab"].'</option>';
                                         echo $html;
-                                    }
+                                }
                                 ?>
                             </select>
                             Adultos:
