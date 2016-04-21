@@ -9,7 +9,7 @@
     );
     $form_html = "";
 
-    $form_html .= '<form method="post" action="include/mailsend/send.php">';
+    $form_html .= '<form method="post" action="include/mailsend/phpmailer.php">';
         $form_html .= '<div class="row">';
             $form_html .= '<div class="4u 12u$(mobile)"><input type="text" name="name" placeholder='.$placheholders['name'].'></div>';
             $form_html .= '<div class="4u 12u$(mobile)"><input type="text" name="phone" placeholder='.$placheholders['phone'].'></div>';
