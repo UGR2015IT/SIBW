@@ -3,11 +3,9 @@
 
     $disfruta = "¡Disfruta de nuestras promociones!";
 
-    $proms_array = array();
-
-    $url = 'database/promociones.json';
+    /*$url = 'database/promociones.json';
     $content = file_get_contents($url);
-    $json = json_decode($content, true);
+    $json = json_decode($content, true);*/
 
     if(!empty($_GET['value'])){
         $value = $_GET['value'];
