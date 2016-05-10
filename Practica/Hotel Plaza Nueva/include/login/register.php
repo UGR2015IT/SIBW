@@ -18,6 +18,9 @@
     $myusername = $mysql_connect -> real_escape_string($myusername);
     $mypassword = $mysql_connect -> real_escape_string($mypassword);
     
+    // Encrypting PWD
+    $mypassword = hash('sha512', $mypassword);
+    
     // Checking if username already exists
     $tbl_name="users"; // Table name 
     $check_query = "SELECT * FROM $tbl_name WHERE username = '$myusername' OR mail = '$mymail'";
@@ -37,9 +40,9 @@
         $count = $mysql_connect -> affected_rows;
         
         if ($count > 0){
-            return "Registration complete.";
+            $myreturn = "Registration complete.";
         } else {
-            return "Something went wrong.";
+            $myreturn = "Something went wrong.";
         }
     }
 

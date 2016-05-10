@@ -12,6 +12,9 @@ $mypassword = stripslashes($mypassword);
 $myusername = $mysql_connect -> real_escape_string($myusername);
 $mypassword = $mysql_connect -> real_escape_string($mypassword);
 
+//Encrypting password
+$mypassword = hash('sha512', $mypassword);
+
 //Building the query
 $tbl_name="users"; // Table name 
 $login_query="SELECT * FROM $tbl_name WHERE username='$myusername' and password='$mypassword'";
