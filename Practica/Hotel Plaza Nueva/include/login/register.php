@@ -1,6 +1,6 @@
 <?php
 
-    include "./connection.php";
+    include "../connection.php";
 
     // Define post variables
     $myusername=$_POST['username']; 
@@ -19,6 +19,7 @@
     $mypassword = $mysql_connect -> real_escape_string($mypassword);
     
     // Checking if username already exists
+    $tbl_name="users"; // Table name 
     $check_query = "SELECT * FROM $tbl_name WHERE username = '$myusername' OR mail = '$mymail'";
     $result = $mysql_connect -> query($check_query);
     $count = $result -> num_rows;

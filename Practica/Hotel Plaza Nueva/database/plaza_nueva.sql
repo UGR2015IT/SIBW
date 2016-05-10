@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Creato il: Mag 10, 2016 alle 14:02
+-- Creato il: Mag 10, 2016 alle 17:59
 -- Versione del server: 10.1.10-MariaDB
 -- Versione PHP: 5.6.19
 
@@ -31,6 +31,32 @@ CREATE TABLE `hab_hotel` (
   `cantidad` int(11) DEFAULT NULL,
   `precio` float DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Struttura della tabella `menu`
+--
+
+CREATE TABLE `menu` (
+  `cod` tinyint(4) NOT NULL,
+  `text` text NOT NULL,
+  `url` text NOT NULL,
+  `span-class` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dump dei dati per la tabella `menu`
+--
+
+INSERT INTO `menu` (`cod`, `text`, `url`, `span-class`) VALUES
+(0, 'Hotel', 'home', 'fa-home'),
+(1, 'Fotos', 'fotos', 'fa-photo'),
+(2, 'Mas Informacion', 'info', 'fa-info'),
+(3, 'Habitaciones', 'habs', 'fa-bed'),
+(4, 'Promociones', 'proms', 'fa-exclamation-circle'),
+(5, 'Contacto y Mapa', 'contact', 'fa-map'),
+(6, 'Reservar', 'reserva', 'fa-calendar');
 
 -- --------------------------------------------------------
 
