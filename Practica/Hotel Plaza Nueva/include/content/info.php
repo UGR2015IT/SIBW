@@ -23,14 +23,16 @@ $info_array = array(
 
 echo '<section id="info" class="two">
     <div class="container">
+    <div class="row">
         <header><h2>'.$title.'</h2></header>
         <div class="3col-container" id="3col-info">';
             
 foreach ($info_array as $value){
-    echo '<div class="one-of-three-col" id="3col-'.$value['id'].'"><header><h3>'.$value['title'].'</h3></header><div class="image">';
+    //echo '<div class="one-of-three-col" id="3col-'.$value['id'].'"><header><h3>'.$value['title'].'</h3></header><div class="image">';
+    echo '<div class="one-of-three-col 3u 10u$(mobile)" id="3col-'.$value['id'].'"><header><h3>'.$value['title'].'</h3></header><div class="image">';
     echo '<img src="images/fotos/'.$value['id'].'.jpg" alt="'.$value['id'].'-pic"></div><p></p>'.$value['body'].'</div>';
 }
 
-echo '</div></div></section>';
+echo '</div></div></div></section>';
 
 ?>

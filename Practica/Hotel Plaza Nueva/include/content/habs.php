@@ -11,7 +11,7 @@ $habs_html .= '<div class="3col-container" id="3col-hab">';
 require_once "database/habitaciones.php";
 $array = new habitaciones();
 foreach ($array->getArray() as $habitacion){
-    $habs_html .= '<div class="one-of-three-col 4u 4u(mobile)" id="3col-'.$habitacion["id"].'">';
+    $habs_html .= '<div class="one-of-three-col 3u 10u$(mobile)" id="3col-'.$habitacion["id"].'">';
     $habs_html .= '<header><h3>HABITACION '.$habitacion["nombre_hab"].'</h3></header>';
     $habs_html .= "<div class='image'>
                     <img src='images/fotos/hab/".$habitacion['id'].".jpg' alt='Hab-".$habitacion['id']."-pic'>

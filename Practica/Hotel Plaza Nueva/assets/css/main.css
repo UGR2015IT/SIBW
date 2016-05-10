@@ -2630,7 +2630,7 @@ ul.horizontal li{
 }
 
 .one-of-three-col{
-    width: 30%;
+    /*width: 30%;*/
     height: auto;
     float: left;
     margin: 0.6em;
