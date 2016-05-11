@@ -1,7 +1,7 @@
 <?php
 
 include '../connection.php';
-
+session_start();
 // Define $myusername and $mypassword 
 $myusername=$_POST['username']; 
 $mypassword=$_POST['pwd']; 
@@ -17,24 +17,30 @@ $mypassword = hash('sha512', $mypassword);
 
 //Building the query
 $tbl_name="users"; // Table name 
-$login_query="SELECT * FROM $tbl_name WHERE username='$myusername' and password='$mypassword'";
+$login_query="SELECT nombre,role FROM $tbl_name WHERE username='$myusername' and password='$mypassword'";
 $result= $mysql_connect -> query($login_query);
 
 // num_rows is counting table row corresponding to the query
 $count= $result -> num_rows;
 
+// Get the role of the user
+$query_result = $result -> fetch_row();
+
 // If result matched $myusername and $mypassword, table row must be 1 row
 if($count==1){
+    
+    $_SESSION = array();
 
 // The user is in the DB, so you can login
-    $_SESSION['username'] = $myusername;
-    $_SESSION['password'] = $mypassword;
-    echo "Login successful!";
+    $_SESSION['user'] = $myusername;
+    $_SESSION['role'] = $query_result[1];
+    $_SESSION['nombre'] = $query_result[0];
+    $myreturn = "Login successful!";
 }
 else {
-    echo "Wrong Username or Password";
+    $myreturn = "Wrong Username or Password";
 }
 $result -> close();
 $mysql_connect -> close();
-ob_end_flush();
+header('Location: ../../index.php?seccion=login');
 ?>
