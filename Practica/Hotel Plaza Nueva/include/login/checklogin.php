@@ -42,5 +42,5 @@ else {
 }
 $result -> close();
 $mysql_connect -> close();
-header('Location: ../../index.php?seccion=login');
+header('Location: ../../index.php?seccion=functions');
 ?>

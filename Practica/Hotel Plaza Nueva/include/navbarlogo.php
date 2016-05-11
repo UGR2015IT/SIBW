@@ -15,7 +15,7 @@
         else $html_img .= "logo.png";
         // Change title to username and subtitle to link
         $html_title .= "Bienvenido, ".$temp_name;
-        $html_subtitle .= "<p><a href='include/actions.php'>Pagina personal</a></p>";
+        $html_subtitle .= "<p><a href='?seccion=functions'>Pagina personal</a></p>";
     } else {
         $html_img .= "logo.png";
         $html_title .= "Hotel Plaza Nueva";

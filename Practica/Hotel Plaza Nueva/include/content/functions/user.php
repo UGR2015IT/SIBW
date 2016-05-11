@@ -1,0 +1,1 @@
+HOLA <?php echo $_SESSION['user']; ?>
