@@ -1,1 +1,1 @@
-HOLA <?php echo $_SESSION['user']; ?>
+HOLA <?php echo $_SESSION['user']; include 'include/content/modules/logout.php'; ?>

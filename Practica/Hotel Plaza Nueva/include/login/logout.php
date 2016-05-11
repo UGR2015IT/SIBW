@@ -6,6 +6,6 @@
     } else {
         echo '<p>You\'re already logged out.</p>';
     }
-    header("Location: ../../index.php?seccion=login");
+    header("Location: ../../index.php");
 
 ?>
